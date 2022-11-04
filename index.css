@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+canvas {
+    margin-top: 50px;
+}
+button{
+    position: absolute;
+    color: white;
+    text-align: center;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 8px;
+    background-color: black;
+    left: 30%;
+}
+button:hover{
+    background-color:white;
+    border: 1px solid black;
+    color: black;
+}
+#result{
+    z-index: 1;
+    position: absolute;
+    justify-content: center;
+    color: rgb(14, 8, 26);
+    font-weight: bolder;   
+    font-size: 3rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family:  Copperplate, Papyrus, fantasy;
+    display: none;
+}
